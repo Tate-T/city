@@ -56,5 +56,37 @@ body {
 }
 
 .city-gallery {
-  height: 600px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.city-gallery-title {
+  color: var(--black, #1b1d1f);
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 80px;
+  margin-top: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-btn {
+  width: calc(25% - 24px * 3 / 4);
+  margin-bottom: 24px;
+  border: none;
+  background: none;
+  border-radius: 48px;
+  padding: 0;
+}
+
+.gallery-btn img {
+  width: 100%;
+  border-radius: 48px;
 }
